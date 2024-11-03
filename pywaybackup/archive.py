@@ -181,7 +181,7 @@ def query_list(csvfile: str, cdxfile: str, queryrange: int, limit: int, start: i
     if sc.FILTER_DUPLICATES > 0: vb.write(message=f"-----> {'removed duplicates'.ljust(18)}: {sc.FILTER_DUPLICATES:,}")
     if sc.FILTER_CURRENT > 0: vb.write(message=f"-----> {'removed current'.ljust(18)}: {sc.FILTER_CURRENT:,}")
     if sc.FILTER_SKIP > 0: vb.write(message=f"-----> {'skipped existing'.ljust(18)}: {sc.FILTER_SKIP:,}")
-    vb.write(message=f"\n-----> {"to utilize".ljust(18)}: {sc.SNAPSHOT_UNHANDLED:,}")
+    vb.write(message=f"\n-----> {'to utilize'.ljust(18)}: {sc.SNAPSHOT_UNHANDLED:,}")
 
 
 
