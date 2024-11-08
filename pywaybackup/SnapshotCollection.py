@@ -183,10 +183,10 @@ class SnapshotCollection:
             WHERE rowid IN (
                 SELECT rowid FROM (
                     SELECT rowid,
-                        ROW_NUMBER() OVER (PARTITION BY url_origin ORDER BY timestamp DESC) AS rank
+                        ROW_NUMBER() OVER (PARTITION BY url_origin ORDER BY timestamp DESC) AS ranking
                     FROM snapshot_tbl
                 ) tmp
-                WHERE rank > 1
+                WHERE ranking > 1
             );
             """
             )

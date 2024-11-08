@@ -2,7 +2,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/pywaybackup)](https://pypi.org/project/pywaybackup/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/pywaybackup)](https://pypi.org/project/pywaybackup/)
-![Python Version](https://img.shields.io/badge/Python-3.6-blue)
+![Python Version](https://img.shields.io/badge/Python-3.8-blue)
+![Python_Sqlite3 Version](https://img.shields.io/badge/Python_Sqlite3-3.25-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Downloading archived web pages from the [Wayback Machine](https://archive.org/web/).
